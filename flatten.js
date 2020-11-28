@@ -129,6 +129,10 @@ function mouseReleased() {
 	updating = true;
 }
 
+function touchEnded() {
+	mouseClicked();
+}
+
 function mouseClicked() {
 	if (!inTransition) {
 		inTransition = true;
